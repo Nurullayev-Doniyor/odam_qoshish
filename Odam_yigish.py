@@ -18,11 +18,11 @@ def banner():
 #print(re+"|/  |_| | \|  | ")
 
 
-print("""
-             Version : 1.01
- {re}👑AYNUSH_ NUR_SALONI_🤍BERUNIY🤍  kelin ko'ylaklar salo'niga tashrif buyuring
-   {cy}https://t.me/Aynush_Brend
-        """)
+#print("""
+ #            Version : 1.01
+ #{re}👑AYNUSH_ NUR_SALONI_🤍BERUNIY🤍  kelin ko'ylaklar salo'niga tashrif buyuring
+  # {cy}https://t.me/Aynush_Brend
+  #      """)
 
 cpass = configparser.RawConfigParser()
 cpass.read('config.data')
