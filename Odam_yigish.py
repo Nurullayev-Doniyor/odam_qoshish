@@ -18,11 +18,14 @@ def banner():
 #print(re+"|/  |_| | \|  | ")
 
 
-#print("""
- #            Version : 1.01
- #{re}👑AYNUSH_ NUR_SALONI_🤍BERUNIY🤍  kelin ko'ylaklar salo'niga tashrif buyuring
-  # {cy}https://t.me/Aynush_Brend
-  #      """)
+
+
+
+
+
+  
+  
+
 
 cpass = configparser.RawConfigParser()
 cpass.read('config.data')
@@ -32,7 +35,7 @@ try:
     api_hash = cpass['cred']['hash']
     phone = cpass['cred']['phone']
     client = TelegramClient(phone, api_id, api_hash)
-except KeyError:
+except 
     os.system('clear')
     banner()
     print(re+"[!] run python3 setup.py first !!\n")
