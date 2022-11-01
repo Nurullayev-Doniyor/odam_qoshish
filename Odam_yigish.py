@@ -13,10 +13,8 @@ cy="\033[1;36m"
 def banner():
 
 
+##print(re+"|\   _          ")
 #print(re+"|\   _          ")
-#print(gr+"| | | | |\ |  | ")
-#print(re+"|/  |_| | \|  | ")
-
 
 
 
@@ -24,7 +22,7 @@ def banner():
 
 
   
-  
+
 
 
 cpass = configparser.RawConfigParser()
