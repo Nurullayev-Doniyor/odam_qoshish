@@ -115,7 +115,7 @@ chats = []
 
 last_date = None
 
-chunk_size = 2000
+chunk_size = 200
 
 groups = []
 
@@ -127,7 +127,7 @@ result = client(GetDialogsRequest(
 
     offset_peer=InputPeerEmpty(),
 
-    #limit=cfrom telethon.sync import TelegramClient
+    limit=cfrom telethon.sync import TelegramClient
 
 from telethon.tl.functions.messages import GetDialogsRequest
 
