@@ -172,7 +172,7 @@ for user in users:
 
     if n % 80 == 0:
 
-        sleep(2000)
+        sleep(60)
 
     try:
 
