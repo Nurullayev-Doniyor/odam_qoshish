@@ -127,7 +127,7 @@ result = client(GetDialogsRequest(
 
     offset_peer=InputPeerEmpty(),
 
-    limit=cfrom telethon.sync import TelegramClient
+    #limit=cfrom telethon.sync import TelegramClient
 
 from telethon.tl.functions.messages import GetDialogsRequest
 
