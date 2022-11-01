@@ -204,9 +204,9 @@ for user in users:
 
         print("Getting Flood Error from telegram. Script is stopping now. Please try again after some time.")
 
-        print("Waiting {} seconds".format(SLEEP_TIME_2))
+        print("Waiting {} seconds".format(SLEEP_TIME_20))
 
-        time.sleep(SLEEP_TIME_2)
+        time.sleep(SLEEP_TIME_20)
 
     except UserPrivacyRestrictedError:
 
